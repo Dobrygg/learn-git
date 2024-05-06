@@ -1,0 +1,12 @@
+.reservation-section{
+    padding: 50px 0 50px;
+}
+
+.button-reservation {
+    background-color: #f9f4f4;
+    border: 1px solid #f9f4f4;
+}
+
+.reservation-section__title {
+    margin-bottom: 60px;
+}

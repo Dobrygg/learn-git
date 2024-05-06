@@ -1,0 +1,53 @@
+.report-section {
+    padding: 50px 0 50px;
+}
+
+.report-section__title {
+    margin-bottom: 92px;
+}
+
+.report-section__item {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+}
+
+.report-section__figure {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 11px;
+}
+
+.report-section__item:last-child{
+    margin-bottom: 0;
+}
+
+.report-section__figcaption {
+    text-align: center;
+    font-family: Arial;
+}
+
+.report-section__text {
+    display: inline-block;
+    vertical-align: middle;
+    max-width:calc(100% - 420px) ;
+    padding-top: 52px;
+}
+
+.report-section__images {
+    margin:0 0 11px 0;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+.report-section__images_position_middle {
+    object-position: 50% 30%;
+}
+
+.report-section__images_position_top {
+    object-position: 50% 55%;
+}

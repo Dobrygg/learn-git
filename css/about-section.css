@@ -1,0 +1,127 @@
+
+.about-section {
+    padding: 50px 0 50px;
+    font-size: 0;
+    word-spacing: 0;
+    letter-spacing: 0;
+    display: flow-root;
+    text-align: right;
+}
+.about-section__text {
+    margin-top: 0;
+    margin-bottom: 78px;
+    font-size: 20px;
+    line-height: calc(28/20);
+}
+
+.about-section__blockquote {
+    margin: 0;
+    display: flow-root;
+}
+
+.about-section__text-overview {
+    margin: 0;
+    
+}
+
+.about-section__text-overview:first-child {
+    margin-bottom: 28px;
+}
+
+.about-section__blockquote-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+    white-space: pre-line;
+    padding-left: 30px;
+}
+
+.about-section__blockquote-text::before {
+    content: "“";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+} 
+
+.about-section__blockquote-text::after{
+    content: " ”";
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+}  
+
+.about-section__figure {
+    margin: 0;
+    float: right;
+    padding-right: 20px;
+}
+
+.about-section__figcaption{
+    font-size: 20px;
+    max-width: 279px;
+    line-height: 28px;
+    font-style: normal;
+    float: right;
+}    
+
+.about-section__avatar {
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0 ;
+}
+
+.about-section__title {
+    margin-bottom: 60px;
+}
+
+.about-section__images {
+    max-width: 600px;
+}
+
+.about-section__images-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    max-width: calc(100% - 500px);
+    width: 100%;
+    padding: 0 80px 0 0;
+}
+
+.about-section__wrapper-text {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    max-width: 500px;
+}
+
+
+/* .about-section__wrapper-text::before{ 
+    content: "";
+    top: 0;
+    right: 580px;
+    position: absolute;
+    background-image: url("../img/figure.jpeg");
+    background-position: center;
+    background-size: 600px 598px;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 600px;
+
+} */
+
