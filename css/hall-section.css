@@ -5,33 +5,29 @@
 .hall-section__list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: -10px;
     font-size: 0;
 }    
 
 .hall-section__item {
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 60px;
+    margin: 10px;
     text-transform: uppercase;
     font-size: 70px;
     font-weight: 700;
-    padding: 94px 170px;
+    width: calc(50% - 20px) ;
+    padding: 94px 10px;
     text-align: center;
     background-position: center;
     background-size: cover;
-}    
+}
 
 .hall-section__text{
     max-width: 240px;
     display: inline-block;
     vertical-align: middle;
 }     
-
-.hall-section__item:nth-child(odd) {
-    margin-right: 20px;
-
-}
 
 .hall-section__item_theme_vibes {
     background-image: url("../img/hall-80s-vibes.jpg");
